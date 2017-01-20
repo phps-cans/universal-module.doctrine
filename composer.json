@@ -1,0 +1,23 @@
+{
+  "name": "phps-cans/universal-module.doctrine",
+  "type": "library",
+  "description": "Cross-framework module for doctrine/doctrine2.",
+  "keywords": ["doctrine", "doctrine2", "service provider"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xavier HUBERTY",
+      "email": "x.huberty@thecodingmachine.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "container-interop/service-provider": "~0.3.0",
+    "doctrine/orm": "~2.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PSCS\\Universal\\Module\\": "src/"
+    }
+  }
+}
